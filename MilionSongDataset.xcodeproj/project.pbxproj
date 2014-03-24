@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59CFBFF418E0BB5500FD6A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CFBFF318E0BB5500FD6A44 /* Foundation.framework */; };
+		59CFBFF618E0BB5500FD6A44 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CFBFF518E0BB5500FD6A44 /* CoreGraphics.framework */; };
+		59CFBFF818E0BB5500FD6A44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CFBFF718E0BB5500FD6A44 /* UIKit.framework */; };
+		59CFBFFE18E0BB5500FD6A44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59CFBFFC18E0BB5500FD6A44 /* InfoPlist.strings */; };
+		59CFC00018E0BB5500FD6A44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CFBFFF18E0BB5500FD6A44 /* main.m */; };
+		59CFC00418E0BB5500FD6A44 /* PMDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CFC00318E0BB5500FD6A44 /* PMDAppDelegate.m */; };
+		59CFC00718E0BB5500FD6A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59CFC00518E0BB5500FD6A44 /* Main.storyboard */; };
+		59CFC00A18E0BB5500FD6A44 /* PMDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CFC00918E0BB5500FD6A44 /* PMDViewController.m */; };
+		59CFC00C18E0BB5500FD6A44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59CFC00B18E0BB5500FD6A44 /* Images.xcassets */; };
+		59CFC01318E0BB5500FD6A44 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CFC01218E0BB5500FD6A44 /* XCTest.framework */; };
+		59CFC01418E0BB5500FD6A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CFBFF318E0BB5500FD6A44 /* Foundation.framework */; };
+		59CFC01518E0BB5500FD6A44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CFBFF718E0BB5500FD6A44 /* UIKit.framework */; };
+		59CFC01D18E0BB5500FD6A44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59CFC01B18E0BB5500FD6A44 /* InfoPlist.strings */; };
+		59CFC01F18E0BB5500FD6A44 /* MilionSongDatasetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CFC01E18E0BB5500FD6A44 /* MilionSongDatasetTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59CFC01618E0BB5500FD6A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59CFBFE818E0BB5400FD6A44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59CFBFEF18E0BB5400FD6A44;
+			remoteInfo = MilionSongDataset;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59CFBFF018E0BB5500FD6A44 /* MilionSongDataset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilionSongDataset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CFBFF318E0BB5500FD6A44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59CFBFF518E0BB5500FD6A44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		59CFBFF718E0BB5500FD6A44 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		59CFBFFB18E0BB5500FD6A44 /* MilionSongDataset-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MilionSongDataset-Info.plist"; sourceTree = "<group>"; };
+		59CFBFFD18E0BB5500FD6A44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59CFBFFF18E0BB5500FD6A44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59CFC00118E0BB5500FD6A44 /* MilionSongDataset-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MilionSongDataset-Prefix.pch"; sourceTree = "<group>"; };
+		59CFC00218E0BB5500FD6A44 /* PMDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMDAppDelegate.h; sourceTree = "<group>"; };
+		59CFC00318E0BB5500FD6A44 /* PMDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMDAppDelegate.m; sourceTree = "<group>"; };
+		59CFC00618E0BB5500FD6A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59CFC00818E0BB5500FD6A44 /* PMDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMDViewController.h; sourceTree = "<group>"; };
+		59CFC00918E0BB5500FD6A44 /* PMDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMDViewController.m; sourceTree = "<group>"; };
+		59CFC00B18E0BB5500FD6A44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		59CFC01118E0BB5500FD6A44 /* MilionSongDatasetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilionSongDatasetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CFC01218E0BB5500FD6A44 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		59CFC01A18E0BB5500FD6A44 /* MilionSongDatasetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MilionSongDatasetTests-Info.plist"; sourceTree = "<group>"; };
+		59CFC01C18E0BB5500FD6A44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59CFC01E18E0BB5500FD6A44 /* MilionSongDatasetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MilionSongDatasetTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59CFBFED18E0BB5400FD6A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CFBFF618E0BB5500FD6A44 /* CoreGraphics.framework in Frameworks */,
+				59CFBFF818E0BB5500FD6A44 /* UIKit.framework in Frameworks */,
+				59CFBFF418E0BB5500FD6A44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CFC00E18E0BB5500FD6A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CFC01318E0BB5500FD6A44 /* XCTest.framework in Frameworks */,
+				59CFC01518E0BB5500FD6A44 /* UIKit.framework in Frameworks */,
+				59CFC01418E0BB5500FD6A44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59CFBFE718E0BB5400FD6A44 = {
+			isa = PBXGroup;
+			children = (
+				59CFBFF918E0BB5500FD6A44 /* MilionSongDataset */,
+				59CFC01818E0BB5500FD6A44 /* MilionSongDatasetTests */,
+				59CFBFF218E0BB5500FD6A44 /* Frameworks */,
+				59CFBFF118E0BB5500FD6A44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59CFBFF118E0BB5500FD6A44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59CFBFF018E0BB5500FD6A44 /* MilionSongDataset.app */,
+				59CFC01118E0BB5500FD6A44 /* MilionSongDatasetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59CFBFF218E0BB5500FD6A44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59CFBFF318E0BB5500FD6A44 /* Foundation.framework */,
+				59CFBFF518E0BB5500FD6A44 /* CoreGraphics.framework */,
+				59CFBFF718E0BB5500FD6A44 /* UIKit.framework */,
+				59CFC01218E0BB5500FD6A44 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59CFBFF918E0BB5500FD6A44 /* MilionSongDataset */ = {
+			isa = PBXGroup;
+			children = (
+				59CFC00218E0BB5500FD6A44 /* PMDAppDelegate.h */,
+				59CFC00318E0BB5500FD6A44 /* PMDAppDelegate.m */,
+				59CFC00518E0BB5500FD6A44 /* Main.storyboard */,
+				59CFC00818E0BB5500FD6A44 /* PMDViewController.h */,
+				59CFC00918E0BB5500FD6A44 /* PMDViewController.m */,
+				59CFC00B18E0BB5500FD6A44 /* Images.xcassets */,
+				59CFBFFA18E0BB5500FD6A44 /* Supporting Files */,
+			);
+			path = MilionSongDataset;
+			sourceTree = "<group>";
+		};
+		59CFBFFA18E0BB5500FD6A44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59CFBFFB18E0BB5500FD6A44 /* MilionSongDataset-Info.plist */,
+				59CFBFFC18E0BB5500FD6A44 /* InfoPlist.strings */,
+				59CFBFFF18E0BB5500FD6A44 /* main.m */,
+				59CFC00118E0BB5500FD6A44 /* MilionSongDataset-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59CFC01818E0BB5500FD6A44 /* MilionSongDatasetTests */ = {
+			isa = PBXGroup;
+			children = (
+				59CFC01E18E0BB5500FD6A44 /* MilionSongDatasetTests.m */,
+				59CFC01918E0BB5500FD6A44 /* Supporting Files */,
+			);
+			path = MilionSongDatasetTests;
+			sourceTree = "<group>";
+		};
+		59CFC01918E0BB5500FD6A44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59CFC01A18E0BB5500FD6A44 /* MilionSongDatasetTests-Info.plist */,
+				59CFC01B18E0BB5500FD6A44 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59CFBFEF18E0BB5400FD6A44 /* MilionSongDataset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59CFC02218E0BB5500FD6A44 /* Build configuration list for PBXNativeTarget "MilionSongDataset" */;
+			buildPhases = (
+				59CFBFEC18E0BB5400FD6A44 /* Sources */,
+				59CFBFED18E0BB5400FD6A44 /* Frameworks */,
+				59CFBFEE18E0BB5400FD6A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MilionSongDataset;
+			productName = MilionSongDataset;
+			productReference = 59CFBFF018E0BB5500FD6A44 /* MilionSongDataset.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59CFC01018E0BB5500FD6A44 /* MilionSongDatasetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59CFC02518E0BB5500FD6A44 /* Build configuration list for PBXNativeTarget "MilionSongDatasetTests" */;
+			buildPhases = (
+				59CFC00D18E0BB5500FD6A44 /* Sources */,
+				59CFC00E18E0BB5500FD6A44 /* Frameworks */,
+				59CFC00F18E0BB5500FD6A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59CFC01718E0BB5500FD6A44 /* PBXTargetDependency */,
+			);
+			name = MilionSongDatasetTests;
+			productName = MilionSongDatasetTests;
+			productReference = 59CFC01118E0BB5500FD6A44 /* MilionSongDatasetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59CFBFE818E0BB5400FD6A44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PMD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ISWD;
+				TargetAttributes = {
+					59CFC01018E0BB5500FD6A44 = {
+						TestTargetID = 59CFBFEF18E0BB5400FD6A44;
+					};
+				};
+			};
+			buildConfigurationList = 59CFBFEB18E0BB5400FD6A44 /* Build configuration list for PBXProject "MilionSongDataset" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59CFBFE718E0BB5400FD6A44;
+			productRefGroup = 59CFBFF118E0BB5500FD6A44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59CFBFEF18E0BB5400FD6A44 /* MilionSongDataset */,
+				59CFC01018E0BB5500FD6A44 /* MilionSongDatasetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59CFBFEE18E0BB5400FD6A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CFC00C18E0BB5500FD6A44 /* Images.xcassets in Resources */,
+				59CFBFFE18E0BB5500FD6A44 /* InfoPlist.strings in Resources */,
+				59CFC00718E0BB5500FD6A44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CFC00F18E0BB5500FD6A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CFC01D18E0BB5500FD6A44 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59CFBFEC18E0BB5400FD6A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CFC00A18E0BB5500FD6A44 /* PMDViewController.m in Sources */,
+				59CFC00418E0BB5500FD6A44 /* PMDAppDelegate.m in Sources */,
+				59CFC00018E0BB5500FD6A44 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59CFC00D18E0BB5500FD6A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CFC01F18E0BB5500FD6A44 /* MilionSongDatasetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59CFC01718E0BB5500FD6A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59CFBFEF18E0BB5400FD6A44 /* MilionSongDataset */;
+			targetProxy = 59CFC01618E0BB5500FD6A44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59CFBFFC18E0BB5500FD6A44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CFBFFD18E0BB5500FD6A44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		59CFC00518E0BB5500FD6A44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CFC00618E0BB5500FD6A44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59CFC01B18E0BB5500FD6A44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59CFC01C18E0BB5500FD6A44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59CFC02018E0BB5500FD6A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		59CFC02118E0BB5500FD6A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59CFC02318E0BB5500FD6A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MilionSongDataset/MilionSongDataset-Prefix.pch";
+				INFOPLIST_FILE = "MilionSongDataset/MilionSongDataset-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		59CFC02418E0BB5500FD6A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MilionSongDataset/MilionSongDataset-Prefix.pch";
+				INFOPLIST_FILE = "MilionSongDataset/MilionSongDataset-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		59CFC02618E0BB5500FD6A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MilionSongDataset.app/MilionSongDataset";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MilionSongDataset/MilionSongDataset-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MilionSongDatasetTests/MilionSongDatasetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		59CFC02718E0BB5500FD6A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MilionSongDataset.app/MilionSongDataset";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MilionSongDataset/MilionSongDataset-Prefix.pch";
+				INFOPLIST_FILE = "MilionSongDatasetTests/MilionSongDatasetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59CFBFEB18E0BB5400FD6A44 /* Build configuration list for PBXProject "MilionSongDataset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CFC02018E0BB5500FD6A44 /* Debug */,
+				59CFC02118E0BB5500FD6A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59CFC02218E0BB5500FD6A44 /* Build configuration list for PBXNativeTarget "MilionSongDataset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CFC02318E0BB5500FD6A44 /* Debug */,
+				59CFC02418E0BB5500FD6A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59CFC02518E0BB5500FD6A44 /* Build configuration list for PBXNativeTarget "MilionSongDatasetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59CFC02618E0BB5500FD6A44 /* Debug */,
+				59CFC02718E0BB5500FD6A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59CFBFE818E0BB5400FD6A44 /* Project object */;
+}
