@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Artist" representedClassName="PMDArtist" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tracks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Track" inverseName="artist" inverseEntity="Track" syncable="YES"/>
+    </entity>
+    <entity name="Track" representedClassName="PMDTrack" syncable="YES">
+        <attribute name="idString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="artist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Artist" inverseName="tracks" inverseEntity="Artist" syncable="YES"/>
+        <relationship name="trackHistories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TrackHistory" inverseName="track" inverseEntity="TrackHistory" syncable="YES"/>
+    </entity>
+    <entity name="TrackHistory" representedClassName="PMDTrackHistory" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="track" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Track" inverseName="trackHistories" inverseEntity="Track" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="tracksHistories" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="PMDUser" syncable="YES">
+        <attribute name="idString" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="tracksHistories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TrackHistory" inverseName="user" inverseEntity="TrackHistory" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-360" positionY="161" width="128" height="73"/>
+        <element name="Track" positionX="25" positionY="122" width="128" height="103"/>
+        <element name="TrackHistory" positionX="-162" positionY="173" width="128" height="88"/>
+        <element name="Artist" positionX="216" positionY="117" width="128" height="73"/>
+    </elements>
+</model>
